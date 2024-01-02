@@ -1,0 +1,24 @@
+<HTML>
+<Head>
+<title>
+Reporting Services URL Post Demo
+</title>
+</Head>
+<Body>
+<FORM id="frmRender" action="http://localhost/ReportServer?
+             /Galactic Delivery Services/Chapter09/TransportMonitor"
+             method="post" target="_self">
+<H3>Transport Monitor Report</H3><br>
+<b>For Transport 1310</b><br><br>
+Render the Transportation Monitor Report in the following format:<br>
+<Select ID="rs:Format" NAME="rs:Format" size=1>
+<Option Value="HTML5">HTML 5</Option>
+<Option VALUE="IMAGE">TIFF Image</Option>
+<Option VALUE="EXCEL">Excel File</Option>
+</Select>
+<Input type="hidden" name="TransportNumber" value="1310">
+<br><br>
+<INPUT type="submit" value="Render Report">
+</FORM>
+</Body>
+</HTML>

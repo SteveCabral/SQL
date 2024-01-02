@@ -1,0 +1,14 @@
+C:\SQL Books\Reporting Services\2016 Edition\Website Materials\AxelburgRVFrontEnd\AxelburgRVFrontEnd\bin\Debug\AxelburgRVFrontEnd.exe.config
+C:\SQL Books\Reporting Services\2016 Edition\Website Materials\AxelburgRVFrontEnd\AxelburgRVFrontEnd\bin\Debug\AxelburgRVFrontEnd.exe
+C:\SQL Books\Reporting Services\2016 Edition\Website Materials\AxelburgRVFrontEnd\AxelburgRVFrontEnd\bin\Debug\AxelburgRVFrontEnd.pdb
+C:\SQL Books\Reporting Services\2016 Edition\Website Materials\AxelburgRVFrontEnd\AxelburgRVFrontEnd\bin\Debug\AxelburgRVFrontEnd.xml
+C:\SQL Books\Reporting Services\2016 Edition\Website Materials\AxelburgRVFrontEnd\AxelburgRVFrontEnd\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\SQL Books\Reporting Services\2016 Edition\Website Materials\AxelburgRVFrontEnd\AxelburgRVFrontEnd\obj\Debug\AxelburgRVFrontEnd.Form1.resources
+C:\SQL Books\Reporting Services\2016 Edition\Website Materials\AxelburgRVFrontEnd\AxelburgRVFrontEnd\obj\Debug\AxelburgRVFrontEnd.Resources.resources
+C:\SQL Books\Reporting Services\2016 Edition\Website Materials\AxelburgRVFrontEnd\AxelburgRVFrontEnd\obj\Debug\AxelburgRVFrontEnd.vbproj.GenerateResource.Cache
+C:\SQL Books\Reporting Services\2016 Edition\Website Materials\AxelburgRVFrontEnd\AxelburgRVFrontEnd\obj\Debug\AxelburgRVFrontEnd.exe
+C:\SQL Books\Reporting Services\2016 Edition\Website Materials\AxelburgRVFrontEnd\AxelburgRVFrontEnd\obj\Debug\AxelburgRVFrontEnd.xml
+C:\SQL Books\Reporting Services\2016 Edition\Website Materials\AxelburgRVFrontEnd\AxelburgRVFrontEnd\obj\Debug\AxelburgRVFrontEnd.pdb
+C:\SQL Books\Reporting Services\2016 Edition\Website Materials\AxelburgRVFrontEnd\AxelburgRVFrontEnd\obj\Debug\AxelburgRVFrontEnd.vbprojResolveAssemblyReference.cache
+C:\SQL Books\Reporting Services\2016 Edition\Website Materials\AxelburgRVFrontEnd\AxelburgRVFrontEnd\obj\Debug\RdlCompile.cache
+C:\SQL Books\Reporting Services\2016 Edition\Website Materials\AxelburgRVFrontEnd\AxelburgRVFrontEnd\obj\Debug\RdlCompile.compiled
