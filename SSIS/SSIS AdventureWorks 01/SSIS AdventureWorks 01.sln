@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.34112.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "SSIS AdventureWorks 01", "SSIS AdventureWorks 01\SSIS AdventureWorks 01.dtproj", "{3E581F10-0654-4014-A259-4E1EB7949125}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3E581F10-0654-4014-A259-4E1EB7949125}.Development|Default.ActiveCfg = Development
+		{3E581F10-0654-4014-A259-4E1EB7949125}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {982B1DEC-C4FC-4CBA-B78E-F9611B9747B9}
+	EndGlobalSection
+EndGlobal

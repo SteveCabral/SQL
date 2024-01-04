@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RptDataSource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="DataSource_AdventureWorks2017">
+  <ConnectionProperties>
+    <Extension>SQL</Extension>
+    <ConnectString>Data Source=localhost</ConnectString>
+    <IntegratedSecurity>true</IntegratedSecurity>
+    <Prompt>Specify a user name and password for data source DataSource_AdventureWorks2017</Prompt>
+  </ConnectionProperties>
+  <DataSourceID>fbf73726-f3fe-48e6-88fa-1c0d2b83861d</DataSourceID>
+</RptDataSource>
