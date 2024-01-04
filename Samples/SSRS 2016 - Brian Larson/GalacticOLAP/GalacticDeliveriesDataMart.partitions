@@ -1,0 +1,25 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="f7a93e23-cea0-45c0-af67-d14d09f5de39" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>GalacticDeliveriesDataMart</ID>
+  <MeasureGroups>
+    <MeasureGroup>
+      <ID>Delivery</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="802f3a93-8ef2-4956-b1d5-13661534d27e">
+          <ID>Delivery</ID>
+          <Name>Delivery</Name>
+          <CreatedTimestamp>0001-01-01T06:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T06:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T06:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="4f182158-92d0-49b4-b4a7-a5b64f5dd9f5">
+            <DataSourceViewID>Galactic</DataSourceViewID>
+            <TableID>dbo_Delivery</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+  </MeasureGroups>
+</Cube>

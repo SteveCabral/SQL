@@ -1,0 +1,1442 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+AxelburgFrontEnd
+</name>
+</assembly>
+<members>
+<member name="T:AxelburgFrontEnd.My.MyWebExtension">
+ <summary>
+ Module used to define the properties that are available in the My Namespace for Web projects.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:AxelburgFrontEnd.My.MyWebExtension.Computer">
+ <summary>
+ Returns information about the host computer.
+ </summary>
+</member>
+<member name="P:AxelburgFrontEnd.My.MyWebExtension.User">
+ <summary>
+ Returns information for the current Web user.
+ </summary>
+</member>
+<member name="P:AxelburgFrontEnd.My.MyWebExtension.Request">
+ <summary>
+ Returns Request object.
+ </summary>
+</member>
+<member name="P:AxelburgFrontEnd.My.MyWebExtension.Response">
+ <summary>
+ Returns Response object.
+ </summary>
+</member>
+<member name="P:AxelburgFrontEnd.My.MyWebExtension.Log">
+ <summary>
+ Returns the Asp log object.
+ </summary>
+</member>
+<member name="F:AxelburgFrontEnd.ReportFrontEnd._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AxelburgFrontEnd.ReportFrontEnd._Label5">
+<summary>
+Label5 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AxelburgFrontEnd.ReportFrontEnd._Label4">
+<summary>
+Label4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AxelburgFrontEnd.ReportFrontEnd._calEndDate">
+<summary>
+calEndDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AxelburgFrontEnd.ReportFrontEnd._calStartDate">
+<summary>
+calStartDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AxelburgFrontEnd.ReportFrontEnd._Label1">
+<summary>
+Label1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AxelburgFrontEnd.ReportFrontEnd._cmdExecute">
+<summary>
+cmdExecute control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AxelburgFrontEnd.SiteMaster._MainContent">
+<summary>
+MainContent control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AxelburgFrontEnd.Site_Mobile._Head1">
+<summary>
+Head1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AxelburgFrontEnd.Site_Mobile._HeadContent">
+<summary>
+HeadContent control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AxelburgFrontEnd.Site_Mobile._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AxelburgFrontEnd.Site_Mobile._FeaturedContent">
+<summary>
+FeaturedContent control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AxelburgFrontEnd.Site_Mobile._MainContent">
+<summary>
+MainContent control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AxelburgFrontEnd.Site_Mobile._ViewSwitcher1">
+<summary>
+ViewSwitcher1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="T:AxelburgFrontEnd.RptExecSvc.ReportExecutionService">
+<remarks/>
+</member>
+<member name="M:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.#ctor">
+<remarks/>
+</member>
+<member name="E:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.ListSecureMethodsCompleted">
+<remarks/>
+</member>
+<member name="E:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.LoadReportCompleted">
+<remarks/>
+</member>
+<member name="E:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.LoadReport3Completed">
+<remarks/>
+</member>
+<member name="E:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.LoadReport2Completed">
+<remarks/>
+</member>
+<member name="E:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.LoadReportDefinitionCompleted">
+<remarks/>
+</member>
+<member name="E:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.LoadReportDefinition2Completed">
+<remarks/>
+</member>
+<member name="E:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.LoadReportDefinition3Completed">
+<remarks/>
+</member>
+<member name="E:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.SetExecutionCredentialsCompleted">
+<remarks/>
+</member>
+<member name="E:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.SetExecutionCredentials2Completed">
+<remarks/>
+</member>
+<member name="E:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.SetExecutionCredentials3Completed">
+<remarks/>
+</member>
+<member name="E:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.SetExecutionParametersCompleted">
+<remarks/>
+</member>
+<member name="E:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.SetExecutionParameters2Completed">
+<remarks/>
+</member>
+<member name="E:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.SetExecutionParameters3Completed">
+<remarks/>
+</member>
+<member name="E:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.ResetExecutionCompleted">
+<remarks/>
+</member>
+<member name="E:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.ResetExecution2Completed">
+<remarks/>
+</member>
+<member name="E:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.ResetExecution3Completed">
+<remarks/>
+</member>
+<member name="E:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.RenderCompleted">
+<remarks/>
+</member>
+<member name="E:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.Render2Completed">
+<remarks/>
+</member>
+<member name="E:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.DeliverReportItemCompleted">
+<remarks/>
+</member>
+<member name="E:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.RenderStreamCompleted">
+<remarks/>
+</member>
+<member name="E:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.GetExecutionInfoCompleted">
+<remarks/>
+</member>
+<member name="E:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.GetExecutionInfo2Completed">
+<remarks/>
+</member>
+<member name="E:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.GetExecutionInfo3Completed">
+<remarks/>
+</member>
+<member name="E:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.GetDocumentMapCompleted">
+<remarks/>
+</member>
+<member name="E:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.LoadDrillthroughTargetCompleted">
+<remarks/>
+</member>
+<member name="E:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.LoadDrillthroughTarget2Completed">
+<remarks/>
+</member>
+<member name="E:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.LoadDrillthroughTarget3Completed">
+<remarks/>
+</member>
+<member name="E:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.ToggleItemCompleted">
+<remarks/>
+</member>
+<member name="E:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.NavigateDocumentMapCompleted">
+<remarks/>
+</member>
+<member name="E:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.NavigateBookmarkCompleted">
+<remarks/>
+</member>
+<member name="E:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.FindStringCompleted">
+<remarks/>
+</member>
+<member name="E:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.SortCompleted">
+<remarks/>
+</member>
+<member name="E:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.Sort2Completed">
+<remarks/>
+</member>
+<member name="E:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.Sort3Completed">
+<remarks/>
+</member>
+<member name="E:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.GetRenderResourceCompleted">
+<remarks/>
+</member>
+<member name="E:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.ListRenderingExtensionsCompleted">
+<remarks/>
+</member>
+<member name="E:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.LogonUserCompleted">
+<remarks/>
+</member>
+<member name="E:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.LogoffCompleted">
+<remarks/>
+</member>
+<member name="M:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.ListSecureMethods">
+<remarks/>
+</member>
+<member name="M:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.ListSecureMethodsAsync">
+<remarks/>
+</member>
+<member name="M:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.ListSecureMethodsAsync(System.Object)">
+<remarks/>
+</member>
+<member name="M:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.LoadReport(System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.LoadReportAsync(System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.LoadReportAsync(System.String,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.LoadReport3(System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.LoadReport3Async(System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.LoadReport3Async(System.String,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.LoadReport2(System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.LoadReport2Async(System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.LoadReport2Async(System.String,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.LoadReportDefinition(System.Byte[],AxelburgFrontEnd.RptExecSvc.Warning[]@)">
+<remarks/>
+</member>
+<member name="M:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.LoadReportDefinitionAsync(System.Byte[])">
+<remarks/>
+</member>
+<member name="M:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.LoadReportDefinitionAsync(System.Byte[],System.Object)">
+<remarks/>
+</member>
+<member name="M:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.LoadReportDefinition2(System.Byte[],AxelburgFrontEnd.RptExecSvc.Warning[]@)">
+<remarks/>
+</member>
+<member name="M:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.LoadReportDefinition2Async(System.Byte[])">
+<remarks/>
+</member>
+<member name="M:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.LoadReportDefinition2Async(System.Byte[],System.Object)">
+<remarks/>
+</member>
+<member name="M:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.LoadReportDefinition3(System.Byte[],AxelburgFrontEnd.RptExecSvc.Warning[]@)">
+<remarks/>
+</member>
+<member name="M:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.LoadReportDefinition3Async(System.Byte[])">
+<remarks/>
+</member>
+<member name="M:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.LoadReportDefinition3Async(System.Byte[],System.Object)">
+<remarks/>
+</member>
+<member name="M:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.SetExecutionCredentials(AxelburgFrontEnd.RptExecSvc.DataSourceCredentials[])">
+<remarks/>
+</member>
+<member name="M:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.SetExecutionCredentialsAsync(AxelburgFrontEnd.RptExecSvc.DataSourceCredentials[])">
+<remarks/>
+</member>
+<member name="M:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.SetExecutionCredentialsAsync(AxelburgFrontEnd.RptExecSvc.DataSourceCredentials[],System.Object)">
+<remarks/>
+</member>
+<member name="M:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.SetExecutionCredentials2(AxelburgFrontEnd.RptExecSvc.DataSourceCredentials[])">
+<remarks/>
+</member>
+<member name="M:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.SetExecutionCredentials2Async(AxelburgFrontEnd.RptExecSvc.DataSourceCredentials[])">
+<remarks/>
+</member>
+<member name="M:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.SetExecutionCredentials2Async(AxelburgFrontEnd.RptExecSvc.DataSourceCredentials[],System.Object)">
+<remarks/>
+</member>
+<member name="M:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.SetExecutionCredentials3(AxelburgFrontEnd.RptExecSvc.DataSourceCredentials[])">
+<remarks/>
+</member>
+<member name="M:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.SetExecutionCredentials3Async(AxelburgFrontEnd.RptExecSvc.DataSourceCredentials[])">
+<remarks/>
+</member>
+<member name="M:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.SetExecutionCredentials3Async(AxelburgFrontEnd.RptExecSvc.DataSourceCredentials[],System.Object)">
+<remarks/>
+</member>
+<member name="M:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.SetExecutionParameters(AxelburgFrontEnd.RptExecSvc.ParameterValue[],System.String)">
+<remarks/>
+</member>
+<member name="M:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.SetExecutionParametersAsync(AxelburgFrontEnd.RptExecSvc.ParameterValue[],System.String)">
+<remarks/>
+</member>
+<member name="M:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.SetExecutionParametersAsync(AxelburgFrontEnd.RptExecSvc.ParameterValue[],System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.SetExecutionParameters2(AxelburgFrontEnd.RptExecSvc.ParameterValue[],System.String)">
+<remarks/>
+</member>
+<member name="M:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.SetExecutionParameters2Async(AxelburgFrontEnd.RptExecSvc.ParameterValue[],System.String)">
+<remarks/>
+</member>
+<member name="M:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.SetExecutionParameters2Async(AxelburgFrontEnd.RptExecSvc.ParameterValue[],System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.SetExecutionParameters3(AxelburgFrontEnd.RptExecSvc.ParameterValue[],System.String)">
+<remarks/>
+</member>
+<member name="M:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.SetExecutionParameters3Async(AxelburgFrontEnd.RptExecSvc.ParameterValue[],System.String)">
+<remarks/>
+</member>
+<member name="M:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.SetExecutionParameters3Async(AxelburgFrontEnd.RptExecSvc.ParameterValue[],System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.ResetExecution">
+<remarks/>
+</member>
+<member name="M:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.ResetExecutionAsync">
+<remarks/>
+</member>
+<member name="M:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.ResetExecutionAsync(System.Object)">
+<remarks/>
+</member>
+<member name="M:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.ResetExecution2">
+<remarks/>
+</member>
+<member name="M:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.ResetExecution2Async">
+<remarks/>
+</member>
+<member name="M:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.ResetExecution2Async(System.Object)">
+<remarks/>
+</member>
+<member name="M:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.ResetExecution3">
+<remarks/>
+</member>
+<member name="M:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.ResetExecution3Async">
+<remarks/>
+</member>
+<member name="M:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.ResetExecution3Async(System.Object)">
+<remarks/>
+</member>
+<member name="M:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.Render(System.String,System.String,System.String@,System.String@,System.String@,AxelburgFrontEnd.RptExecSvc.Warning[]@,System.String[]@)">
+<remarks/>
+</member>
+<member name="M:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.RenderAsync(System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.RenderAsync(System.String,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.Render2(System.String,System.String,AxelburgFrontEnd.RptExecSvc.PageCountMode,System.String@,System.String@,System.String@,AxelburgFrontEnd.RptExecSvc.Warning[]@,System.String[]@)">
+<remarks/>
+</member>
+<member name="M:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.Render2Async(System.String,System.String,AxelburgFrontEnd.RptExecSvc.PageCountMode)">
+<remarks/>
+</member>
+<member name="M:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.Render2Async(System.String,System.String,AxelburgFrontEnd.RptExecSvc.PageCountMode,System.Object)">
+<remarks/>
+</member>
+<member name="M:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.DeliverReportItem(System.String,System.String,AxelburgFrontEnd.RptExecSvc.ExtensionSettings,System.String,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.DeliverReportItemAsync(System.String,System.String,AxelburgFrontEnd.RptExecSvc.ExtensionSettings,System.String,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.DeliverReportItemAsync(System.String,System.String,AxelburgFrontEnd.RptExecSvc.ExtensionSettings,System.String,System.String,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.RenderStream(System.String,System.String,System.String,System.String@,System.String@)">
+<remarks/>
+</member>
+<member name="M:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.RenderStreamAsync(System.String,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.RenderStreamAsync(System.String,System.String,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.GetExecutionInfo">
+<remarks/>
+</member>
+<member name="M:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.GetExecutionInfoAsync">
+<remarks/>
+</member>
+<member name="M:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.GetExecutionInfoAsync(System.Object)">
+<remarks/>
+</member>
+<member name="M:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.GetExecutionInfo2">
+<remarks/>
+</member>
+<member name="M:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.GetExecutionInfo2Async">
+<remarks/>
+</member>
+<member name="M:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.GetExecutionInfo2Async(System.Object)">
+<remarks/>
+</member>
+<member name="M:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.GetExecutionInfo3">
+<remarks/>
+</member>
+<member name="M:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.GetExecutionInfo3Async">
+<remarks/>
+</member>
+<member name="M:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.GetExecutionInfo3Async(System.Object)">
+<remarks/>
+</member>
+<member name="M:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.GetDocumentMap">
+<remarks/>
+</member>
+<member name="M:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.GetDocumentMapAsync">
+<remarks/>
+</member>
+<member name="M:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.GetDocumentMapAsync(System.Object)">
+<remarks/>
+</member>
+<member name="M:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.LoadDrillthroughTarget(System.String)">
+<remarks/>
+</member>
+<member name="M:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.LoadDrillthroughTargetAsync(System.String)">
+<remarks/>
+</member>
+<member name="M:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.LoadDrillthroughTargetAsync(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.LoadDrillthroughTarget2(System.String)">
+<remarks/>
+</member>
+<member name="M:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.LoadDrillthroughTarget2Async(System.String)">
+<remarks/>
+</member>
+<member name="M:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.LoadDrillthroughTarget2Async(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.LoadDrillthroughTarget3(System.String)">
+<remarks/>
+</member>
+<member name="M:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.LoadDrillthroughTarget3Async(System.String)">
+<remarks/>
+</member>
+<member name="M:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.LoadDrillthroughTarget3Async(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.ToggleItem(System.String)">
+<remarks/>
+</member>
+<member name="M:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.ToggleItemAsync(System.String)">
+<remarks/>
+</member>
+<member name="M:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.ToggleItemAsync(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.NavigateDocumentMap(System.String)">
+<remarks/>
+</member>
+<member name="M:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.NavigateDocumentMapAsync(System.String)">
+<remarks/>
+</member>
+<member name="M:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.NavigateDocumentMapAsync(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.NavigateBookmark(System.String,System.String@)">
+<remarks/>
+</member>
+<member name="M:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.NavigateBookmarkAsync(System.String)">
+<remarks/>
+</member>
+<member name="M:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.NavigateBookmarkAsync(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.FindString(System.Int32,System.Int32,System.String)">
+<remarks/>
+</member>
+<member name="M:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.FindStringAsync(System.Int32,System.Int32,System.String)">
+<remarks/>
+</member>
+<member name="M:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.FindStringAsync(System.Int32,System.Int32,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.Sort(System.String,AxelburgFrontEnd.RptExecSvc.SortDirectionEnum,System.Boolean,System.String@,System.Int32@)">
+<remarks/>
+</member>
+<member name="M:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.SortAsync(System.String,AxelburgFrontEnd.RptExecSvc.SortDirectionEnum,System.Boolean)">
+<remarks/>
+</member>
+<member name="M:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.SortAsync(System.String,AxelburgFrontEnd.RptExecSvc.SortDirectionEnum,System.Boolean,System.Object)">
+<remarks/>
+</member>
+<member name="M:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.Sort2(System.String,AxelburgFrontEnd.RptExecSvc.SortDirectionEnum,System.Boolean,AxelburgFrontEnd.RptExecSvc.PageCountMode,System.String@,AxelburgFrontEnd.RptExecSvc.ExecutionInfo2@)">
+<remarks/>
+</member>
+<member name="M:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.Sort2Async(System.String,AxelburgFrontEnd.RptExecSvc.SortDirectionEnum,System.Boolean,AxelburgFrontEnd.RptExecSvc.PageCountMode)">
+<remarks/>
+</member>
+<member name="M:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.Sort2Async(System.String,AxelburgFrontEnd.RptExecSvc.SortDirectionEnum,System.Boolean,AxelburgFrontEnd.RptExecSvc.PageCountMode,System.Object)">
+<remarks/>
+</member>
+<member name="M:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.Sort3(System.String,AxelburgFrontEnd.RptExecSvc.SortDirectionEnum,System.Boolean,AxelburgFrontEnd.RptExecSvc.PageCountMode,System.String@,AxelburgFrontEnd.RptExecSvc.ExecutionInfo3@)">
+<remarks/>
+</member>
+<member name="M:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.Sort3Async(System.String,AxelburgFrontEnd.RptExecSvc.SortDirectionEnum,System.Boolean,AxelburgFrontEnd.RptExecSvc.PageCountMode)">
+<remarks/>
+</member>
+<member name="M:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.Sort3Async(System.String,AxelburgFrontEnd.RptExecSvc.SortDirectionEnum,System.Boolean,AxelburgFrontEnd.RptExecSvc.PageCountMode,System.Object)">
+<remarks/>
+</member>
+<member name="M:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.GetRenderResource(System.String,System.String,System.String@)">
+<remarks/>
+</member>
+<member name="M:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.GetRenderResourceAsync(System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.GetRenderResourceAsync(System.String,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.ListRenderingExtensions">
+<remarks/>
+</member>
+<member name="M:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.ListRenderingExtensionsAsync">
+<remarks/>
+</member>
+<member name="M:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.ListRenderingExtensionsAsync(System.Object)">
+<remarks/>
+</member>
+<member name="M:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.LogonUser(System.String,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.LogonUserAsync(System.String,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.LogonUserAsync(System.String,System.String,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.Logoff">
+<remarks/>
+</member>
+<member name="M:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.LogoffAsync">
+<remarks/>
+</member>
+<member name="M:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.LogoffAsync(System.Object)">
+<remarks/>
+</member>
+<member name="M:AxelburgFrontEnd.RptExecSvc.ReportExecutionService.CancelAsync(System.Object)">
+<remarks/>
+</member>
+<member name="T:AxelburgFrontEnd.RptExecSvc.TrustedUserHeader">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.TrustedUserHeader.UserName">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.TrustedUserHeader.UserToken">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.TrustedUserHeader.AnyAttr">
+<remarks/>
+</member>
+<member name="T:AxelburgFrontEnd.RptExecSvc.Extension">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.Extension.ExtensionType">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.Extension.Name">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.Extension.LocalizedName">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.Extension.Visible">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.Extension.IsModelGenerationSupported">
+<remarks/>
+</member>
+<member name="T:AxelburgFrontEnd.RptExecSvc.ExtensionTypeEnum">
+<remarks/>
+</member>
+<member name="F:AxelburgFrontEnd.RptExecSvc.ExtensionTypeEnum.Delivery">
+<remarks/>
+</member>
+<member name="F:AxelburgFrontEnd.RptExecSvc.ExtensionTypeEnum.Render">
+<remarks/>
+</member>
+<member name="F:AxelburgFrontEnd.RptExecSvc.ExtensionTypeEnum.Data">
+<remarks/>
+</member>
+<member name="F:AxelburgFrontEnd.RptExecSvc.ExtensionTypeEnum.All">
+<remarks/>
+</member>
+<member name="T:AxelburgFrontEnd.RptExecSvc.DocumentMapNode">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.DocumentMapNode.Label">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.DocumentMapNode.UniqueName">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.DocumentMapNode.Children">
+<remarks/>
+</member>
+<member name="T:AxelburgFrontEnd.RptExecSvc.ExtensionSettings">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.ExtensionSettings.Extension">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.ExtensionSettings.ParameterValues">
+<remarks/>
+</member>
+<member name="T:AxelburgFrontEnd.RptExecSvc.ParameterFieldReference">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.ParameterFieldReference.ParameterName">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.ParameterFieldReference.FieldAlias">
+<remarks/>
+</member>
+<member name="T:AxelburgFrontEnd.RptExecSvc.ParameterValueOrFieldReference">
+<remarks/>
+</member>
+<member name="T:AxelburgFrontEnd.RptExecSvc.ParameterValue">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.ParameterValue.Name">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.ParameterValue.Value">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.ParameterValue.Label">
+<remarks/>
+</member>
+<member name="T:AxelburgFrontEnd.RptExecSvc.DataSourceCredentials">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.DataSourceCredentials.DataSourceName">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.DataSourceCredentials.UserName">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.DataSourceCredentials.Password">
+<remarks/>
+</member>
+<member name="T:AxelburgFrontEnd.RptExecSvc.Warning">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.Warning.Code">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.Warning.Severity">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.Warning.ObjectName">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.Warning.ObjectType">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.Warning.Message">
+<remarks/>
+</member>
+<member name="T:AxelburgFrontEnd.RptExecSvc.ParametersGridCellDefinition">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.ParametersGridCellDefinition.RowIndex">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.ParametersGridCellDefinition.ColumnsIndex">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.ParametersGridCellDefinition.ParameterName">
+<remarks/>
+</member>
+<member name="T:AxelburgFrontEnd.RptExecSvc.ParametersGridLayoutDefinition">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.ParametersGridLayoutDefinition.NumberOfColumns">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.ParametersGridLayoutDefinition.NumberOfRows">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.ParametersGridLayoutDefinition.CellDefinitions">
+<remarks/>
+</member>
+<member name="T:AxelburgFrontEnd.RptExecSvc.ReportMargins">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.ReportMargins.Top">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.ReportMargins.Bottom">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.ReportMargins.Left">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.ReportMargins.Right">
+<remarks/>
+</member>
+<member name="T:AxelburgFrontEnd.RptExecSvc.ReportPaperSize">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.ReportPaperSize.Height">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.ReportPaperSize.Width">
+<remarks/>
+</member>
+<member name="T:AxelburgFrontEnd.RptExecSvc.PageSettings">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.PageSettings.PaperSize">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.PageSettings.Margins">
+<remarks/>
+</member>
+<member name="T:AxelburgFrontEnd.RptExecSvc.DataSourcePrompt">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.DataSourcePrompt.Name">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.DataSourcePrompt.DataSourceID">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.DataSourcePrompt.Prompt">
+<remarks/>
+</member>
+<member name="T:AxelburgFrontEnd.RptExecSvc.ValidValue">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.ValidValue.Label">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.ValidValue.Value">
+<remarks/>
+</member>
+<member name="T:AxelburgFrontEnd.RptExecSvc.ReportParameter">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.ReportParameter.Name">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.ReportParameter.Type">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.ReportParameter.TypeSpecified">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.ReportParameter.Nullable">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.ReportParameter.NullableSpecified">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.ReportParameter.AllowBlank">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.ReportParameter.AllowBlankSpecified">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.ReportParameter.MultiValue">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.ReportParameter.MultiValueSpecified">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.ReportParameter.QueryParameter">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.ReportParameter.QueryParameterSpecified">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.ReportParameter.Prompt">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.ReportParameter.PromptUser">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.ReportParameter.PromptUserSpecified">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.ReportParameter.Dependencies">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.ReportParameter.ValidValuesQueryBased">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.ReportParameter.ValidValuesQueryBasedSpecified">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.ReportParameter.ValidValues">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.ReportParameter.DefaultValuesQueryBased">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.ReportParameter.DefaultValuesQueryBasedSpecified">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.ReportParameter.DefaultValues">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.ReportParameter.State">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.ReportParameter.StateSpecified">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.ReportParameter.ErrorMessage">
+<remarks/>
+</member>
+<member name="T:AxelburgFrontEnd.RptExecSvc.ParameterTypeEnum">
+<remarks/>
+</member>
+<member name="F:AxelburgFrontEnd.RptExecSvc.ParameterTypeEnum.Boolean">
+<remarks/>
+</member>
+<member name="F:AxelburgFrontEnd.RptExecSvc.ParameterTypeEnum.DateTime">
+<remarks/>
+</member>
+<member name="F:AxelburgFrontEnd.RptExecSvc.ParameterTypeEnum.Integer">
+<remarks/>
+</member>
+<member name="F:AxelburgFrontEnd.RptExecSvc.ParameterTypeEnum.Float">
+<remarks/>
+</member>
+<member name="F:AxelburgFrontEnd.RptExecSvc.ParameterTypeEnum.String">
+<remarks/>
+</member>
+<member name="T:AxelburgFrontEnd.RptExecSvc.ParameterStateEnum">
+<remarks/>
+</member>
+<member name="F:AxelburgFrontEnd.RptExecSvc.ParameterStateEnum.HasValidValue">
+<remarks/>
+</member>
+<member name="F:AxelburgFrontEnd.RptExecSvc.ParameterStateEnum.MissingValidValue">
+<remarks/>
+</member>
+<member name="F:AxelburgFrontEnd.RptExecSvc.ParameterStateEnum.HasOutstandingDependencies">
+<remarks/>
+</member>
+<member name="F:AxelburgFrontEnd.RptExecSvc.ParameterStateEnum.DynamicValuesUnavailable">
+<remarks/>
+</member>
+<member name="T:AxelburgFrontEnd.RptExecSvc.ExecutionInfo">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.ExecutionInfo.HasSnapshot">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.ExecutionInfo.NeedsProcessing">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.ExecutionInfo.AllowQueryExecution">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.ExecutionInfo.CredentialsRequired">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.ExecutionInfo.ParametersRequired">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.ExecutionInfo.ExpirationDateTime">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.ExecutionInfo.ExecutionDateTime">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.ExecutionInfo.NumPages">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.ExecutionInfo.Parameters">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.ExecutionInfo.DataSourcePrompts">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.ExecutionInfo.HasDocumentMap">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.ExecutionInfo.ExecutionID">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.ExecutionInfo.ReportPath">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.ExecutionInfo.HistoryID">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.ExecutionInfo.ReportPageSettings">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.ExecutionInfo.AutoRefreshInterval">
+<remarks/>
+</member>
+<member name="T:AxelburgFrontEnd.RptExecSvc.ExecutionInfo2">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.ExecutionInfo2.PageCountMode">
+<remarks/>
+</member>
+<member name="T:AxelburgFrontEnd.RptExecSvc.PageCountMode">
+<remarks/>
+</member>
+<member name="F:AxelburgFrontEnd.RptExecSvc.PageCountMode.Actual">
+<remarks/>
+</member>
+<member name="F:AxelburgFrontEnd.RptExecSvc.PageCountMode.Estimate">
+<remarks/>
+</member>
+<member name="T:AxelburgFrontEnd.RptExecSvc.ExecutionInfo3">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.ExecutionInfo3.ParametersLayout">
+<remarks/>
+</member>
+<member name="T:AxelburgFrontEnd.RptExecSvc.ServerInfoHeader">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.ServerInfoHeader.ReportServerVersionNumber">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.ServerInfoHeader.ReportServerEdition">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.ServerInfoHeader.ReportServerVersion">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.ServerInfoHeader.ReportServerDateTime">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.ServerInfoHeader.AnyAttr">
+<remarks/>
+</member>
+<member name="T:AxelburgFrontEnd.RptExecSvc.ExecutionHeader">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.ExecutionHeader.ExecutionID">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.ExecutionHeader.AnyAttr">
+<remarks/>
+</member>
+<member name="T:AxelburgFrontEnd.RptExecSvc.SortDirectionEnum">
+<remarks/>
+</member>
+<member name="F:AxelburgFrontEnd.RptExecSvc.SortDirectionEnum.None">
+<remarks/>
+</member>
+<member name="F:AxelburgFrontEnd.RptExecSvc.SortDirectionEnum.Ascending">
+<remarks/>
+</member>
+<member name="F:AxelburgFrontEnd.RptExecSvc.SortDirectionEnum.Descending">
+<remarks/>
+</member>
+<member name="T:AxelburgFrontEnd.RptExecSvc.ListSecureMethodsCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:AxelburgFrontEnd.RptExecSvc.ListSecureMethodsCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.ListSecureMethodsCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:AxelburgFrontEnd.RptExecSvc.LoadReportCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:AxelburgFrontEnd.RptExecSvc.LoadReportCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.LoadReportCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:AxelburgFrontEnd.RptExecSvc.LoadReport3CompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:AxelburgFrontEnd.RptExecSvc.LoadReport3CompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.LoadReport3CompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:AxelburgFrontEnd.RptExecSvc.LoadReport2CompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:AxelburgFrontEnd.RptExecSvc.LoadReport2CompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.LoadReport2CompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:AxelburgFrontEnd.RptExecSvc.LoadReportDefinitionCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:AxelburgFrontEnd.RptExecSvc.LoadReportDefinitionCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.LoadReportDefinitionCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.LoadReportDefinitionCompletedEventArgs.warnings">
+<remarks/>
+</member>
+<member name="T:AxelburgFrontEnd.RptExecSvc.LoadReportDefinition2CompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:AxelburgFrontEnd.RptExecSvc.LoadReportDefinition2CompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.LoadReportDefinition2CompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.LoadReportDefinition2CompletedEventArgs.warnings">
+<remarks/>
+</member>
+<member name="T:AxelburgFrontEnd.RptExecSvc.LoadReportDefinition3CompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:AxelburgFrontEnd.RptExecSvc.LoadReportDefinition3CompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.LoadReportDefinition3CompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.LoadReportDefinition3CompletedEventArgs.warnings">
+<remarks/>
+</member>
+<member name="T:AxelburgFrontEnd.RptExecSvc.SetExecutionCredentialsCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:AxelburgFrontEnd.RptExecSvc.SetExecutionCredentialsCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.SetExecutionCredentialsCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:AxelburgFrontEnd.RptExecSvc.SetExecutionCredentials2CompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:AxelburgFrontEnd.RptExecSvc.SetExecutionCredentials2CompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.SetExecutionCredentials2CompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:AxelburgFrontEnd.RptExecSvc.SetExecutionCredentials3CompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:AxelburgFrontEnd.RptExecSvc.SetExecutionCredentials3CompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.SetExecutionCredentials3CompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:AxelburgFrontEnd.RptExecSvc.SetExecutionParametersCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:AxelburgFrontEnd.RptExecSvc.SetExecutionParametersCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.SetExecutionParametersCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:AxelburgFrontEnd.RptExecSvc.SetExecutionParameters2CompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:AxelburgFrontEnd.RptExecSvc.SetExecutionParameters2CompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.SetExecutionParameters2CompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:AxelburgFrontEnd.RptExecSvc.SetExecutionParameters3CompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:AxelburgFrontEnd.RptExecSvc.SetExecutionParameters3CompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.SetExecutionParameters3CompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:AxelburgFrontEnd.RptExecSvc.ResetExecutionCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:AxelburgFrontEnd.RptExecSvc.ResetExecutionCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.ResetExecutionCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:AxelburgFrontEnd.RptExecSvc.ResetExecution2CompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:AxelburgFrontEnd.RptExecSvc.ResetExecution2CompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.ResetExecution2CompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:AxelburgFrontEnd.RptExecSvc.ResetExecution3CompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:AxelburgFrontEnd.RptExecSvc.ResetExecution3CompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.ResetExecution3CompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:AxelburgFrontEnd.RptExecSvc.RenderCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:AxelburgFrontEnd.RptExecSvc.RenderCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.RenderCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.RenderCompletedEventArgs.Extension">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.RenderCompletedEventArgs.MimeType">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.RenderCompletedEventArgs.Encoding">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.RenderCompletedEventArgs.Warnings">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.RenderCompletedEventArgs.StreamIds">
+<remarks/>
+</member>
+<member name="T:AxelburgFrontEnd.RptExecSvc.Render2CompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:AxelburgFrontEnd.RptExecSvc.Render2CompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.Render2CompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.Render2CompletedEventArgs.Extension">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.Render2CompletedEventArgs.MimeType">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.Render2CompletedEventArgs.Encoding">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.Render2CompletedEventArgs.Warnings">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.Render2CompletedEventArgs.StreamIds">
+<remarks/>
+</member>
+<member name="T:AxelburgFrontEnd.RptExecSvc.DeliverReportItemCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:AxelburgFrontEnd.RptExecSvc.RenderStreamCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:AxelburgFrontEnd.RptExecSvc.RenderStreamCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.RenderStreamCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.RenderStreamCompletedEventArgs.Encoding">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.RenderStreamCompletedEventArgs.MimeType">
+<remarks/>
+</member>
+<member name="T:AxelburgFrontEnd.RptExecSvc.GetExecutionInfoCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:AxelburgFrontEnd.RptExecSvc.GetExecutionInfoCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.GetExecutionInfoCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:AxelburgFrontEnd.RptExecSvc.GetExecutionInfo2CompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:AxelburgFrontEnd.RptExecSvc.GetExecutionInfo2CompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.GetExecutionInfo2CompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:AxelburgFrontEnd.RptExecSvc.GetExecutionInfo3CompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:AxelburgFrontEnd.RptExecSvc.GetExecutionInfo3CompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.GetExecutionInfo3CompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:AxelburgFrontEnd.RptExecSvc.GetDocumentMapCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:AxelburgFrontEnd.RptExecSvc.GetDocumentMapCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.GetDocumentMapCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:AxelburgFrontEnd.RptExecSvc.LoadDrillthroughTargetCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:AxelburgFrontEnd.RptExecSvc.LoadDrillthroughTargetCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.LoadDrillthroughTargetCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:AxelburgFrontEnd.RptExecSvc.LoadDrillthroughTarget2CompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:AxelburgFrontEnd.RptExecSvc.LoadDrillthroughTarget2CompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.LoadDrillthroughTarget2CompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:AxelburgFrontEnd.RptExecSvc.LoadDrillthroughTarget3CompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:AxelburgFrontEnd.RptExecSvc.LoadDrillthroughTarget3CompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.LoadDrillthroughTarget3CompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:AxelburgFrontEnd.RptExecSvc.ToggleItemCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:AxelburgFrontEnd.RptExecSvc.ToggleItemCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.ToggleItemCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:AxelburgFrontEnd.RptExecSvc.NavigateDocumentMapCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:AxelburgFrontEnd.RptExecSvc.NavigateDocumentMapCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.NavigateDocumentMapCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:AxelburgFrontEnd.RptExecSvc.NavigateBookmarkCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:AxelburgFrontEnd.RptExecSvc.NavigateBookmarkCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.NavigateBookmarkCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.NavigateBookmarkCompletedEventArgs.UniqueName">
+<remarks/>
+</member>
+<member name="T:AxelburgFrontEnd.RptExecSvc.FindStringCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:AxelburgFrontEnd.RptExecSvc.FindStringCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.FindStringCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:AxelburgFrontEnd.RptExecSvc.SortCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:AxelburgFrontEnd.RptExecSvc.SortCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.SortCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.SortCompletedEventArgs.ReportItem">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.SortCompletedEventArgs.NumPages">
+<remarks/>
+</member>
+<member name="T:AxelburgFrontEnd.RptExecSvc.Sort2CompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:AxelburgFrontEnd.RptExecSvc.Sort2CompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.Sort2CompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.Sort2CompletedEventArgs.ReportItem">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.Sort2CompletedEventArgs.ExecutionInfo">
+<remarks/>
+</member>
+<member name="T:AxelburgFrontEnd.RptExecSvc.Sort3CompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:AxelburgFrontEnd.RptExecSvc.Sort3CompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.Sort3CompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.Sort3CompletedEventArgs.ReportItem">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.Sort3CompletedEventArgs.ExecutionInfo">
+<remarks/>
+</member>
+<member name="T:AxelburgFrontEnd.RptExecSvc.GetRenderResourceCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:AxelburgFrontEnd.RptExecSvc.GetRenderResourceCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.GetRenderResourceCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.GetRenderResourceCompletedEventArgs.MimeType">
+<remarks/>
+</member>
+<member name="T:AxelburgFrontEnd.RptExecSvc.ListRenderingExtensionsCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:AxelburgFrontEnd.RptExecSvc.ListRenderingExtensionsCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:AxelburgFrontEnd.RptExecSvc.ListRenderingExtensionsCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:AxelburgFrontEnd.RptExecSvc.LogonUserCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:AxelburgFrontEnd.RptExecSvc.LogoffCompletedEventHandler">
+<remarks/>
+</member>
+</members>
+</doc>

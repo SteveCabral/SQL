@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SharedDataSet xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/shareddatasetdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <DataSet Name="DataSet1">
+    <Query>
+      <DataSourceReference>/Galactic Delivery Services/Shared Data Sources/Galactic</DataSourceReference>
+      <CommandText>SELECT
+  Customer.CustomerNumber
+  ,Customer.ParentCustomerNumber
+  ,Customer.Name
+  ,Customer.BillParentFlag
+  ,Customer.BillingContact
+  ,Customer.BillingAddress1
+  ,Customer.BillingAddress2
+  ,Customer.BillingCity
+  ,Customer.BillingState
+  ,Customer.BillingZipCode
+  ,Customer.BillingPlanetAbbrv
+  ,Customer.BillingEmail
+  ,Customer.CreditLimit
+  ,Customer.ProblemUseBillingInfoFlag
+  ,Customer.ProblemContact
+  ,Customer.ProblemAddress1
+  ,Customer.ProblemAddress2
+  ,Customer.ProblemCity
+  ,Customer.ProblemState
+  ,Customer.ProblemZipCode
+  ,Customer.ProblemPlanetAbbrv
+  ,Customer.ProblemEmail
+  ,Customer.StartDate
+  ,Customer.NoDeliveriesFlag
+  ,Customer.NumberOfEmployees
+  ,Customer.AnnualRevenue
+  ,Customer.AccountRepEmployeeNumber
+  ,Customer.Comments
+FROM
+  Customer</CommandText>
+      <rd:DesignerState>&lt;QueryDefinition xmlns="http://schemas.microsoft.com/ReportingServices/QueryDefinition/Relational"&gt;&lt;SelectedColumns&gt;&lt;ColumnExpression ColumnOwner="Customer" ColumnName="CustomerNumber" /&gt;&lt;ColumnExpression ColumnOwner="Customer" ColumnName="ParentCustomerNumber" /&gt;&lt;ColumnExpression ColumnOwner="Customer" ColumnName="Name" /&gt;&lt;ColumnExpression ColumnOwner="Customer" ColumnName="BillParentFlag" /&gt;&lt;ColumnExpression ColumnOwner="Customer" ColumnName="BillingContact" /&gt;&lt;ColumnExpression ColumnOwner="Customer" ColumnName="BillingAddress1" /&gt;&lt;ColumnExpression ColumnOwner="Customer" ColumnName="BillingAddress2" /&gt;&lt;ColumnExpression ColumnOwner="Customer" ColumnName="BillingCity" /&gt;&lt;ColumnExpression ColumnOwner="Customer" ColumnName="BillingState" /&gt;&lt;ColumnExpression ColumnOwner="Customer" ColumnName="BillingZipCode" /&gt;&lt;ColumnExpression ColumnOwner="Customer" ColumnName="BillingPlanetAbbrv" /&gt;&lt;ColumnExpression ColumnOwner="Customer" ColumnName="BillingEmail" /&gt;&lt;ColumnExpression ColumnOwner="Customer" ColumnName="CreditLimit" /&gt;&lt;ColumnExpression ColumnOwner="Customer" ColumnName="ProblemUseBillingInfoFlag" /&gt;&lt;ColumnExpression ColumnOwner="Customer" ColumnName="ProblemContact" /&gt;&lt;ColumnExpression ColumnOwner="Customer" ColumnName="ProblemAddress1" /&gt;&lt;ColumnExpression ColumnOwner="Customer" ColumnName="ProblemAddress2" /&gt;&lt;ColumnExpression ColumnOwner="Customer" ColumnName="ProblemCity" /&gt;&lt;ColumnExpression ColumnOwner="Customer" ColumnName="ProblemState" /&gt;&lt;ColumnExpression ColumnOwner="Customer" ColumnName="ProblemZipCode" /&gt;&lt;ColumnExpression ColumnOwner="Customer" ColumnName="ProblemPlanetAbbrv" /&gt;&lt;ColumnExpression ColumnOwner="Customer" ColumnName="ProblemEmail" /&gt;&lt;ColumnExpression ColumnOwner="Customer" ColumnName="StartDate" /&gt;&lt;ColumnExpression ColumnOwner="Customer" ColumnName="NoDeliveriesFlag" /&gt;&lt;ColumnExpression ColumnOwner="Customer" ColumnName="NumberOfEmployees" /&gt;&lt;ColumnExpression ColumnOwner="Customer" ColumnName="AnnualRevenue" /&gt;&lt;ColumnExpression ColumnOwner="Customer" ColumnName="AccountRepEmployeeNumber" /&gt;&lt;ColumnExpression ColumnOwner="Customer" ColumnName="Comments" /&gt;&lt;/SelectedColumns&gt;&lt;/QueryDefinition&gt;</rd:DesignerState>
+    </Query>
+    <Fields>
+      <Field Name="CustomerNumber">
+        <DataField>CustomerNumber</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ParentCustomerNumber">
+        <DataField>ParentCustomerNumber</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Name">
+        <DataField>Name</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="BillParentFlag">
+        <DataField>BillParentFlag</DataField>
+        <rd:TypeName>System.Boolean</rd:TypeName>
+      </Field>
+      <Field Name="BillingContact">
+        <DataField>BillingContact</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="BillingAddress1">
+        <DataField>BillingAddress1</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="BillingAddress2">
+        <DataField>BillingAddress2</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="BillingCity">
+        <DataField>BillingCity</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="BillingState">
+        <DataField>BillingState</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="BillingZipCode">
+        <DataField>BillingZipCode</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="BillingPlanetAbbrv">
+        <DataField>BillingPlanetAbbrv</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="BillingEmail">
+        <DataField>BillingEmail</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="CreditLimit">
+        <DataField>CreditLimit</DataField>
+        <rd:TypeName>System.Decimal</rd:TypeName>
+      </Field>
+      <Field Name="ProblemUseBillingInfoFlag">
+        <DataField>ProblemUseBillingInfoFlag</DataField>
+        <rd:TypeName>System.Boolean</rd:TypeName>
+      </Field>
+      <Field Name="ProblemContact">
+        <DataField>ProblemContact</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ProblemAddress1">
+        <DataField>ProblemAddress1</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ProblemAddress2">
+        <DataField>ProblemAddress2</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ProblemCity">
+        <DataField>ProblemCity</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ProblemState">
+        <DataField>ProblemState</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ProblemZipCode">
+        <DataField>ProblemZipCode</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ProblemPlanetAbbrv">
+        <DataField>ProblemPlanetAbbrv</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ProblemEmail">
+        <DataField>ProblemEmail</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="StartDate">
+        <DataField>StartDate</DataField>
+        <rd:TypeName>System.DateTime</rd:TypeName>
+      </Field>
+      <Field Name="NoDeliveriesFlag">
+        <DataField>NoDeliveriesFlag</DataField>
+        <rd:TypeName>System.Boolean</rd:TypeName>
+      </Field>
+      <Field Name="NumberOfEmployees">
+        <DataField>NumberOfEmployees</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="AnnualRevenue">
+        <DataField>AnnualRevenue</DataField>
+        <rd:TypeName>System.Decimal</rd:TypeName>
+      </Field>
+      <Field Name="AccountRepEmployeeNumber">
+        <DataField>AccountRepEmployeeNumber</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="Comments">
+        <DataField>Comments</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+    </Fields>
+  </DataSet>
+  <rd:ReportServerUrl>http://localhost/ReportServer</rd:ReportServerUrl>
+</SharedDataSet>

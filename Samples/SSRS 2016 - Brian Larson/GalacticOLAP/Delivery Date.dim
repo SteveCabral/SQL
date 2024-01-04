@@ -1,0 +1,248 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="7f6b2588-2b1d-47e5-bc24-1817f450f5bc" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Delivery 1</ID>
+  <Name>Delivery Date</Name>
+  <CreatedTimestamp>0001-01-01T06:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T06:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-536" scrolltop="-3585" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="5186" y="12171" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Delivery" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="4075" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000c0000eb0f000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Delivery" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-536</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-3585</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
+      <Value>
+        <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
+          <Shapes NodeWidth="125">
+            <Shape Id="DeliveryNumber" Expanded="true">
+              <Attributes>
+                <Attribute Id="DeliveryNumber" />
+              </Attributes>
+              <Position x="20" y="20" />
+            </Shape>
+            <Shape Id="Delivery Month" Expanded="false">
+              <Attributes>
+                <Attribute Id="Delivery Month" />
+              </Attributes>
+              <Position x="181" y="20" />
+            </Shape>
+            <Shape Id="Delivery Quarter" Expanded="false">
+              <Attributes>
+                <Attribute Id="Delivery Quarter" />
+              </Attributes>
+              <Position x="342" y="20" />
+            </Shape>
+            <Shape Id="Delivery Year" Expanded="false">
+              <Attributes>
+                <Attribute Id="Delivery Year" />
+              </Attributes>
+              <Position x="503" y="20" />
+            </Shape>
+          </Shapes>
+        </DiagramLayout>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T06:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="94cddeef-3888-4573-a3f2-30397c8c59be">
+    <DataSourceViewID>Galactic</DataSourceViewID>
+  </Source>
+  <Type>Time</Type>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="7193813b-a330-4c5c-b941-633b4fc2db35">
+      <ID>DeliveryNumber</ID>
+      <Name>Delivery Number</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="3925c3a3-d636-45e8-9b43-ce8a25f29bd4">
+          <DataType>Integer</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c5a18c7c-e410-4885-8062-44ea23e14c1f">
+            <TableID>dbo_Delivery</TableID>
+            <ColumnID>DeliveryNumber</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="b6dff77c-454b-475e-8d64-473a5a93d0c8">
+        <DataType>WChar</DataType>
+        <DataSize>-1</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="7acb9d82-20bc-47a1-92f4-9469398b6855">
+          <TableID>dbo_Delivery</TableID>
+          <ColumnID>DeliveryNumber</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="3054ee47-9834-4378-9fa3-ea69aedd0b21">
+          <AttributeID>Delivery Month</AttributeID>
+          <RelationshipType>Rigid</RelationshipType>
+          <Name>Delivery Month</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="1f6b7729-64f4-4440-9464-e707859ca03f">
+      <ID>Delivery Year</ID>
+      <Name>Delivery Year</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="b4718798-b284-4576-b144-9899fec26c72">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="17d3d9ae-9bf9-4f30-bedb-3b062dacdbd3">
+            <TableID>dbo_Delivery</TableID>
+            <ColumnID>DeliveryYear</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="04099784-80f0-47b9-b465-a95ec8955f96">
+      <ID>Delivery Quarter</ID>
+      <Name>Delivery Quarter</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="9d45d934-9d13-4185-bdad-3f8a75d2cd9b">
+          <DataType>WChar</DataType>
+          <DataSize>7</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="257ae14a-422b-4e02-ab9f-88feb0fbb8e9">
+            <TableID>dbo_Delivery</TableID>
+            <ColumnID>DeliveryQuarterSort</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="02cc4260-c03d-4b97-b732-8654fbd4a7f3">
+        <DataType>WChar</DataType>
+        <DataSize>7</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="45f9c9bd-e4f8-4cfe-a496-5787e3dc4513">
+          <TableID>dbo_Delivery</TableID>
+          <ColumnID>DeliveryQuarter</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="bbc84b1d-ed1a-4a45-9d9b-498cd2a4edee">
+          <AttributeID>Delivery Year</AttributeID>
+          <RelationshipType>Rigid</RelationshipType>
+          <Name>Delivery Year</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="3292ae23-d21c-46b9-8537-c17ac214b6c8">
+      <ID>Delivery Month</ID>
+      <Name>Delivery Month</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="d9b15f0b-717b-4257-aa13-0b393540a976">
+          <DataType>WChar</DataType>
+          <DataSize>6</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="4ef1a718-92c7-4caf-9c6a-ca3cadc96b69">
+            <TableID>dbo_Delivery</TableID>
+            <ColumnID>DeliveryMonthSort</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="428926a9-0adf-4d37-9f1e-4dfdd2f777ad">
+        <DataType>WChar</DataType>
+        <DataSize>35</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="f953fb86-db01-48c9-8061-af83482ff5ed">
+          <TableID>dbo_Delivery</TableID>
+          <ColumnID>DeliveryMonth</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="0710a086-8849-4840-a6dc-13fb7a6cd34c">
+          <AttributeID>Delivery Quarter</AttributeID>
+          <RelationshipType>Rigid</RelationshipType>
+          <Name>Delivery Quarter</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="a1227669-2a6e-4252-bf89-6d9ce734a0c6">
+      <ID>Hierarchy</ID>
+      <Name>Delivery Date Hierarchy</Name>
+      <Levels>
+        <Level dwd:design-time-name="472afafb-2485-4fcc-8741-3481cb4836ad">
+          <ID>Delivery Year</ID>
+          <Name>Delivery Year</Name>
+          <SourceAttributeID>Delivery Year</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="1b9eabdf-bb1e-4bb2-88e6-2f3dc575c190">
+          <ID>Delivery Quarter</ID>
+          <Name>Delivery Quarter</Name>
+          <SourceAttributeID>Delivery Quarter</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="ecbd7a6f-4769-4c0d-a283-3c96389333c4">
+          <ID>Delivery Month</ID>
+          <Name>Delivery Month</Name>
+          <SourceAttributeID>Delivery Month</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>
