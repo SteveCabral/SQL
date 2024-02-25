@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SharedDataSet xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/shareddatasetdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <DataSet Name="DataSet1">
+    <Query>
+      <DataSourceReference>DataSource_AdventureWorks2017</DataSourceReference>
+      <CommandText>SELECT 
+		dp.EnglishProductName
+		,dp.Color
+		,frs.OrderDate
+		,dr.ResellerName
+		,dr.BusinessType
+		,dc.CurrencyName
+		,dst.SalesTerritoryCountry
+		,dst.SalesTerritoryRegion
+		,dst.SalesTerritoryGroup
+		,frs.SalesOrderNumber
+		,frs.SalesOrderLineNumber
+		,frs.RevisionNumber
+		,frs.OrderQuantity
+		,frs.UnitPrice
+		,frs.ExtendedAmount
+		,frs.UnitPriceDiscountPct
+		,frs.DiscountAmount
+		,frs.TotalProductCost
+		,frs.SalesAmount
+		,frs.TaxAmt
+		,frs.Freight
+FROM	AdventureWorksDW2017.dbo.FactResellerSales AS frs
+		INNER JOIN AdventureWorksDW2017.dbo.DimProduct AS dp
+			ON frs.ProductKey = dp.ProductKey
+		INNER JOIN AdventureWorksDW2017.dbo.DimReseller AS dr
+			ON frs.ResellerKey = dr.ResellerKey
+		INNER JOIN AdventureWorksDW2017.dbo.DimCurrency AS dc
+			ON frs.CurrencyKey = dc.CurrencyKey
+		INNER JOIN AdventureWorksDW2017.dbo.DimSalesTerritory AS dst
+			ON frs.SalesTerritoryKey = dst.SalesTerritoryKey</CommandText>
+    </Query>
+    <Fields>
+      <Field Name="EnglishProductName">
+        <DataField>EnglishProductName</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Color">
+        <DataField>Color</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="OrderDate">
+        <DataField>OrderDate</DataField>
+        <rd:TypeName>System.DateTime</rd:TypeName>
+      </Field>
+      <Field Name="ResellerName">
+        <DataField>ResellerName</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="BusinessType">
+        <DataField>BusinessType</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="CurrencyName">
+        <DataField>CurrencyName</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="SalesTerritoryCountry">
+        <DataField>SalesTerritoryCountry</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="SalesTerritoryRegion">
+        <DataField>SalesTerritoryRegion</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="SalesTerritoryGroup">
+        <DataField>SalesTerritoryGroup</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="SalesOrderNumber">
+        <DataField>SalesOrderNumber</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="SalesOrderLineNumber">
+        <DataField>SalesOrderLineNumber</DataField>
+        <rd:TypeName>System.Byte</rd:TypeName>
+      </Field>
+      <Field Name="RevisionNumber">
+        <DataField>RevisionNumber</DataField>
+        <rd:TypeName>System.Byte</rd:TypeName>
+      </Field>
+      <Field Name="OrderQuantity">
+        <DataField>OrderQuantity</DataField>
+        <rd:TypeName>System.Int16</rd:TypeName>
+      </Field>
+      <Field Name="UnitPrice">
+        <DataField>UnitPrice</DataField>
+        <rd:TypeName>System.Decimal</rd:TypeName>
+      </Field>
+      <Field Name="ExtendedAmount">
+        <DataField>ExtendedAmount</DataField>
+        <rd:TypeName>System.Decimal</rd:TypeName>
+      </Field>
+      <Field Name="UnitPriceDiscountPct">
+        <DataField>UnitPriceDiscountPct</DataField>
+        <rd:TypeName>System.Double</rd:TypeName>
+      </Field>
+      <Field Name="DiscountAmount">
+        <DataField>DiscountAmount</DataField>
+        <rd:TypeName>System.Double</rd:TypeName>
+      </Field>
+      <Field Name="TotalProductCost">
+        <DataField>TotalProductCost</DataField>
+        <rd:TypeName>System.Decimal</rd:TypeName>
+      </Field>
+      <Field Name="SalesAmount">
+        <DataField>SalesAmount</DataField>
+        <rd:TypeName>System.Decimal</rd:TypeName>
+      </Field>
+      <Field Name="TaxAmt">
+        <DataField>TaxAmt</DataField>
+        <rd:TypeName>System.Decimal</rd:TypeName>
+      </Field>
+      <Field Name="Freight">
+        <DataField>Freight</DataField>
+        <rd:TypeName>System.Decimal</rd:TypeName>
+      </Field>
+    </Fields>
+  </DataSet>
+</SharedDataSet>
